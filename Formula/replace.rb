@@ -7,7 +7,7 @@ class Replace < Formula
     sha256 "7321ba9f6b0484e38d4d6e8e07d7423233cdb16546338a6f69f98c134eac0d4c"
     license "MIT"
   
-    depends_on "python@3.9"
+    depends_on "python@3.12"
   
     def install
       bin.install "bin/replace.py"
